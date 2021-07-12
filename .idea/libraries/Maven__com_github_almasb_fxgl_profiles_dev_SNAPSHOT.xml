@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.almasb:fxgl-profiles:dev-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-profiles/dev-SNAPSHOT/fxgl-profiles-dev-20210320.103305-1102.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-profiles/dev-SNAPSHOT/fxgl-profiles-dev-20210320.103305-1102-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-profiles/dev-SNAPSHOT/fxgl-profiles-dev-20210320.103305-1102-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

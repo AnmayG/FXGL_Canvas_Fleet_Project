@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.almasb:fxgl-effects:dev-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-effects/dev-SNAPSHOT/fxgl-effects-dev-20210320.103301-1683.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-effects/dev-SNAPSHOT/fxgl-effects-dev-20210320.103301-1683-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-effects/dev-SNAPSHOT/fxgl-effects-dev-20210320.103301-1683-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_11" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<levels>
+		<level name="Maven: com.github.almasb:fxgl:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: org.openjfx:javafx-swing:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-swing:win:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:win:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:win:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:win:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-controls:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-controls:win:15" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-core:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-logging:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-io:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.gluonhq.attach:storage:4.0.9" value="project"/>
+		<level name="Maven: com.gluonhq.attach:util:4.0.9" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-profiles:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-ui:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-net:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-effects:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-animation:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-entity:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-ai:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-media:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: org.openjfx:javafx-media:15" value="project"/>
+		<level name="Maven: org.openjfx:javafx-media:win:15" value="project"/>
+		<level name="Maven: com.gluonhq.attach:audio:4.0.9" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-events:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-input:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-scene:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-minigames:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-achievement:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-cutscene:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.1" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-localization:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-time:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.github.almasb:fxgl-trade:dev-SNAPSHOT" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.1" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.1" value="project"/>
+		<level name="Maven: com.gluonhq.attach:lifecycle:4.0.9" value="project"/>
+		<level name="Maven: org.jetbrains.kotlin:kotlin-stdlib:modular:1.4.30" value="project"/>
+		<level name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" value="project"/>
+		<level name="Maven: org.jetbrains:annotations:13.0" value="project"/>
+		<level name="lib" value="project"/>
+	</levels>
+</component>

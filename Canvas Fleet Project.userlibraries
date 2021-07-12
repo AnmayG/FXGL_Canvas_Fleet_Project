@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.1">
+    <archive path="C:/Users/anmay/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.1">
+    <archive path="C:/Users/anmay/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.1">
+    <archive path="C:/Users/anmay/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-achievement:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-achievement/dev-SNAPSHOT/fxgl-achievement-dev-20210226.140014-1586.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-ai:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-ai/dev-SNAPSHOT/fxgl-ai-dev-20210226.140006-1159.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-animation:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-animation/dev-SNAPSHOT/fxgl-animation-dev-20210226.140011-1727.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-core:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-core/dev-SNAPSHOT/fxgl-core-dev-20210226.135957-1646.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-cutscene:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-cutscene/dev-SNAPSHOT/fxgl-cutscene-dev-20210226.140001-1435.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl/dev-SNAPSHOT/fxgl-dev-20210226.135959-1683.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-effects:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-effects/dev-SNAPSHOT/fxgl-effects-dev-20210226.135956-1654.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-entity:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-entity/dev-SNAPSHOT/fxgl-entity-dev-20210226.140005-1670.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-events:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-events/dev-SNAPSHOT/fxgl-events-dev-20210226.140009-1708.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-input:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-input/dev-SNAPSHOT/fxgl-input-dev-20210226.140019-1726.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-io:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-io/dev-SNAPSHOT/fxgl-io-dev-20210226.140004-1666.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-localization:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-localization/dev-SNAPSHOT/fxgl-localization-dev-20210226.140008-1310.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-logging:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-logging/dev-SNAPSHOT/fxgl-logging-dev-20210226.140015-781.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-media:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-media/dev-SNAPSHOT/fxgl-media-dev-20210226.140000-1685.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-minigames:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-minigames/dev-SNAPSHOT/fxgl-minigames-dev-20210226.140001-1516.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-net:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-net/dev-SNAPSHOT/fxgl-net-dev-20210226.135958-1000.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-profiles:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-profiles/dev-SNAPSHOT/fxgl-profiles-dev-20210226.140002-1073.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-scene:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-scene/dev-SNAPSHOT/fxgl-scene-dev-20210226.140002-1416.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-time:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-time/dev-SNAPSHOT/fxgl-time-dev-20210226.140005-1694.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-trade:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-trade/dev-SNAPSHOT/fxgl-trade-dev-20210226.140000-1553.jar" />
+  </library>
+  <library name="Maven: com.github.almasb:fxgl-ui:dev-SNAPSHOT">
+    <archive path="C:/Users/anmay/.m2/repository/com/github/almasb/fxgl-ui/dev-SNAPSHOT/fxgl-ui-dev-20210226.135959-1661.jar" />
+  </library>
+  <library name="Maven: com.gluonhq.attach:audio:4.0.9">
+    <archive path="C:/Users/anmay/.m2/repository/com/gluonhq/attach/audio/4.0.9/audio-4.0.9.jar" />
+  </library>
+  <library name="Maven: com.gluonhq.attach:lifecycle:4.0.9">
+    <archive path="C:/Users/anmay/.m2/repository/com/gluonhq/attach/lifecycle/4.0.9/lifecycle-4.0.9.jar" />
+  </library>
+  <library name="Maven: com.gluonhq.attach:storage:4.0.9">
+    <archive path="C:/Users/anmay/.m2/repository/com/gluonhq/attach/storage/4.0.9/storage-4.0.9.jar" />
+  </library>
+  <library name="Maven: com.gluonhq.attach:util:4.0.9">
+    <archive path="C:/Users/anmay/.m2/repository/com/gluonhq/attach/util/4.0.9/util-4.0.9.jar" />
+  </library>
+  <library name="Maven: org.jetbrains:annotations:13.0">
+    <archive path="C:/Users/anmay/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30">
+    <archive path="C:/Users/anmay/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.30/kotlin-stdlib-common-1.4.30.jar" />
+  </library>
+  <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib:modular:1.4.30">
+    <archive path="C:/Users/anmay/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.30/kotlin-stdlib-1.4.30-modular.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-controls:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-controls:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-media:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-media:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-swing:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-swing/15/javafx-swing-15.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-swing:win:15">
+    <archive path="C:/Users/anmay/.m2/repository/org/openjfx/javafx-swing/15/javafx-swing-15-win.jar" />
+  </library>
+  <library name="lib">
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/src.zip" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx-swt.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.web.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.base.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.fxml.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.media.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.swing.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.controls.jar" />
+    <archive path="C:/Users/anmay/Desktop/openjfx-14.0.2.1_windows-x64_bin-sdk/javafx-sdk-14.0.2.1/lib/javafx.graphics.jar" />
+  </library>
+</eclipse-userlibraries>
+

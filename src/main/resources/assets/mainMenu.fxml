@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainMenuController">
+   <Pane fx:id="aPane" maxWidth="1000.0" prefHeight="600.0" prefWidth="1000.0">
+      <Pane fx:id="menuPane" prefHeight="600.0" prefWidth="1000.0" visible="false">
+         <children>
+            <Pane fx:id="animate1" prefHeight="212.0" prefWidth="722.0" style="-fx-background-color: #00000099;" translateX="263.0" translateY="381.0">
+               <children>
+                  <Slider fx:id="slider1" blockIncrement="5.0" majorTickUnit="10.0" minorTickCount="5" prefHeight="56.0" prefWidth="244.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" style="-fx-background-color: #fefefe;" translateX="464.0" translateY="14.0" value="10.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Slider>
+                  <Slider fx:id="slider2" blockIncrement="5.0" majorTickUnit="10.0" minorTickCount="5" prefHeight="56.0" prefWidth="244.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" style="-fx-background-color: #fefefe;" translateX="464.0" translateY="79.0" value="50.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Slider>
+                  <Label fx:id="sl1" alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="SFX Volume:" textAlignment="RIGHT" translateX="334.0" translateY="14.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sl2" alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="Music Volume:" textAlignment="RIGHT" translateX="334.0" translateY="79.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="19.0" layoutY="14.0" prefHeight="579.0" prefWidth="244.0" style="-fx-background-color: #00000099;">
+               <children>
+                  <Label fx:id="l1" alignment="CENTER" layoutX="-11.0" layoutY="-2.0" prefHeight="105.0" prefWidth="253.0" text="FXFleet" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l2" alignment="CENTER" layoutY="100.0" prefHeight="30.0" prefWidth="244.0" text="By Anmay Gupta" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="exitButton" layoutY="509.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="244.0" style="-fx-background-color: fefefe;" text="Exit" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutY="381.0" mnemonicParsing="false" onAction="#b1Click" prefHeight="56.0" prefWidth="244.0" style="-fx-background-color: fefefe;" text="Start" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="animateButton1" layoutY="445.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="244.0" style="-fx-background-color: fefefe;" text="Audio" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="menuPane2" prefHeight="600.0" prefWidth="1000.0">
+         <children>
+            <Label fx:id="label1234" alignment="TOP_LEFT" prefHeight="82.0" prefWidth="1000.0" style="-fx-border-color: #000000;" text="Welcome to the planning board, Admiral! The Penguins have officially declared war, and it's our duty to keep them back. Here, you can organize and deploy our ships. Fight on, Admiral, and put a new page into the book of war." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Rectangle fx:id="placeholder1" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="402.0" layoutX="39.0" layoutY="91.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="502.0" />
+            <Canvas fx:id="canvas1" height="400.0" layoutX="40.0" layoutY="92.0" onMouseClicked="#canvas1Click" width="500.0">
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor></Canvas>
+            <VBox layoutX="550.0" layoutY="292.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000000;">
+               <children>
+                  <Button fx:id="helpButton" mnemonicParsing="false" onAction="#getHelp" prefHeight="59.0" prefWidth="201.0" text="Tactics Help">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <HBox prefHeight="59.0" prefWidth="200.0">
+                     <children>
+                        <ToggleButton fx:id="b3" mnemonicParsing="false" onAction="#b3Click" prefHeight="59.0" prefWidth="100.0" text="Create Order" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </ToggleButton>
+                        <ToggleButton fx:id="b4" mnemonicParsing="false" onAction="#b4Click" prefHeight="59.0" prefWidth="100.0" text="Remove Item" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </ToggleButton>
+                     </children>
+                  </HBox>
+                  <ColorPicker fx:id="colorpick1" prefHeight="82.0" prefWidth="198.0" />
+               </children>
+            </VBox>
+            <HBox fx:id="shiphbox1" layoutX="550.0" layoutY="92.0" prefHeight="95.0" prefWidth="410.0" style="-fx-border-color: #000000;">
+               <children>
+                  <Pane fx:id="gunboat1" onMouseClicked="#shipClick" prefHeight="95.0" prefWidth="205.0" style="-fx-border-color: #000000;">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="105.0" fitWidth="143.0" layoutX="23.0" layoutY="5.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@textures/ShipIcon1.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="3.0" layoutY="-1.0" prefHeight="30.0" prefWidth="99.0" text="Gunboat" />
+                        <Label fx:id="ship1" layoutX="149.0" layoutY="44.0" prefHeight="17.0" prefWidth="20.0" text="x4">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="destroyer1" onMouseClicked="#shipClick" prefHeight="95.0" prefWidth="205.0" style="-fx-border-color: #000000;">
+                     <children>
+                        <ImageView fx:id="img11" fitHeight="105.0" fitWidth="143.0" layoutX="20.0" layoutY="6.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@textures/ShipIcon2.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="3.0" layoutY="-1.0" prefHeight="30.0" prefWidth="99.0" text="Destroyer" />
+                        <Label fx:id="ship2" layoutX="146.0" layoutY="45.0" prefHeight="17.0" prefWidth="20.0" text="x3">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></HBox>
+            <HBox fx:id="shiphbox2" layoutX="550.0" layoutY="187.0" prefHeight="95.0" prefWidth="410.0" style="-fx-border-color: #000000;">
+               <children>
+                  <Pane fx:id="carrier1" onMouseClicked="#shipClick" prefHeight="95.0" prefWidth="205.0" style="-fx-border-color: #000000;">
+                     <children>
+                        <ImageView fx:id="img111" fitHeight="105.0" fitWidth="143.0" layoutX="20.0" layoutY="6.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@textures/ShipIcon3.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="3.0" layoutY="-1.0" prefHeight="30.0" prefWidth="99.0" text="Carrier" />
+                        <Label fx:id="ship3" layoutX="146.0" layoutY="45.0" prefHeight="17.0" prefWidth="20.0" text="x1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="plane1" onMouseClicked="#shipClick" prefHeight="95.0" prefWidth="205.0" style="-fx-border-color: #000000;">
+                     <children>
+                        <ImageView fx:id="img1111" fitHeight="95.0" fitWidth="99.0" layoutX="20.0" layoutY="6.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@textures/ShipIcon4.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="3.0" layoutY="-1.0" prefHeight="30.0" prefWidth="99.0" text="Plane" />
+                        <Label fx:id="ship4" layoutX="146.0" layoutY="45.0" prefHeight="17.0" prefWidth="20.0" text="x4">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></HBox>
+            <HBox fx:id="hbox1" layoutX="240.0" layoutY="500.0" prefHeight="90.0" prefWidth="625.0" style="-fx-border-color: #000000;" />
+            <Button fx:id="startButton" layoutX="873.0" layoutY="500.0" mnemonicParsing="false" onAction="#startBClick" prefHeight="40.0" prefWidth="86.0" text="Start Game" />
+            <Button layoutX="873.0" layoutY="550.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="86.0" text="Back" />
+            <ListView fx:id="list1" layoutX="760.0" layoutY="292.0" prefHeight="200.0" prefWidth="200.0" />
+            <Pane layoutX="40.0" layoutY="500.0" prefHeight="90.0" prefWidth="200.0" style="-fx-border-color: #000000;">
+               <children>
+                  <Button layoutX="35.0" layoutY="49.0" mnemonicParsing="false" onAction="#addGroup" prefHeight="25.0" prefWidth="130.0" text="Create Group" />
+                  <Label layoutX="35.0" layoutY="14.0" prefHeight="25.0" prefWidth="130.0" text="Group Creation">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </Pane>
+</AnchorPane>
